@@ -11,9 +11,8 @@
     font-size: 22px;
     padding: 4px;
 }
-
-.current-page-link {
-    background: #aaa;
+.page-link a {
+    text-decoration: none;
 }
 
 .next-link {
