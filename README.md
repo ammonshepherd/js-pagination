@@ -15,10 +15,13 @@ results to expect divided by the number of results to display per page.  This
 is further affected by the current page displayed. Possible outcomes of the
 function could look like so:
 
+```
 [1, 2, 3, 4, 5, 6, 7, '...', 44, 45]        // 1-7 is the current page
 [1, 2, 3, '...', 7, 8, 9, 10, 11, 12]       // 2 is the current page
 [1, 2, '...', 10, 11, 12, '...', 44, 45]    // 8-39 is the current page
 [1, 2, '...', 33, 34, 35, 36, 37, 38, 39]   // 33-39 is the current page
+
+```
 
 The function takes three parameters:
 
